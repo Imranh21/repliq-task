@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "email": "data.mobileNumber@gmail.com",
+      "password": "$2a$10$lUWvgLx38aqTaKBPdsjFBegM3eMOTerh/ElrVgt9h/H025ReacNuu",
+      "id": 1
+    },
+    {
+      "email": "015498787@gmail.com",
+      "password": "$2a$10$ZICSLKJHnU3o/IfMHER2H.LWJZSeUKFfW64l4mVpnw1NXnEKX/zsC",
+      "id": 2
+    },
+    {
+      "email": "0147852369@gmail.com",
+      "password": "$2a$10$nVhfmfXembJkIhCFNwBFBexzfIjC6Ymu2l/W74uUzXSfn5k1CzisK",
+      "id": 3
+    },
+    {
+      "email": "123456789@gmail.com",
+      "password": "$2a$10$GZJ0hs8oLjR.OIXhnwZ.NO2tKcWYu2lsXb0VPkaq2ggNcDQIDyK0y",
+      "id": 4
+    },
+    {
+      "email": "1234567890@gmail.com",
+      "password": "$2a$10$fdR82Y8Yp/cCFv2gcfwFteiV430szj9qqCTmy8g7/7E6rGgVW5Phm",
+      "id": 5
+    }
+  ],
+  "login": [],
+  "customers": [
+    {
+      "id": 1,
+      "storeName": "Kabir Store",
+      "orders": [],
+      "totalOrder": 9
+    },
+    {
+      "id": 2,
+      "storeName": "Sai Tiwari",
+      "orders": [],
+      "totalOrder": 20
+    },
+    {
+      "id": 3,
+      "storeName": "Jayesh Deol",
+      "orders": [],
+      "totalOrder": 13
+    },
+    {
+      "id": 4,
+      "storeName": "Chitra Savant",
+      "orders": [],
+      "totalOrder": 17
+    },
+    {
+      "id": 5,
+      "storeName": "Ryan Shop",
+      "orders": [],
+      "totalOrder": 14
+    }
+  ],
+  "allOrders": [
+    {
+      "id": 5,
+      "orderId": "#p20221",
+      "totalItems": 4,
+      "isNew": true,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "245rp",
+      "timeStamps": "Today, 11:12 AM",
+      "paymentStatus": "PAID",
+      "orderStatus": "Shipped"
+    },
+    {
+      "id": 6,
+      "orderId": "#p20222",
+      "totalItems": 2,
+      "isNew": false,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "145rp",
+      "timeStamps": "Today, 11:12 AM",
+      "paymentStatus": "PAID",
+      "orderStatus": "Pending"
+    },
+    {
+      "id": 7,
+      "orderId": "#p20223",
+      "totalItems": 6,
+      "isNew": false,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "505rp",
+      "timeStamps": "Today, 11:12 AM",
+      "paymentStatus": "OOD",
+      "orderStatus": "Accepted"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "title": "Ovan baked cake",
+      "unit": 1,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "$245",
+      "discountPrice": "$200"
+    },
+    {
+      "id": 2,
+      "title": "Ovan baked cake",
+      "unit": 1,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "$245",
+      "discountPrice": "$200"
+    },
+    {
+      "id": 3,
+      "title": "Ovan baked cake",
+      "unit": 1,
+      "isAvailable": true,
+      "imageUrl": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=636&q=80",
+      "price": "$245",
+      "discountPrice": "$200"
+    }
+  ]
+}
