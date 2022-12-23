@@ -10,14 +10,6 @@ interface Props {
   children: ReactNode;
 }
 const LayoutWrapper = ({ children }: Props) => {
-  const [loginRoute, setLoginRoute] = useState<any>();
-  const [regsiterRoute, setRegsiterRoute] = useState<any>();
-
-  useEffect(() => {
-    setLoginRoute(!window.location.pathname.includes(HideNavbar.LOGIN));
-    setRegsiterRoute(!window.location.pathname.includes(HideNavbar.REGISTRER));
-  }, [loginRoute, regsiterRoute]);
-
   return (
     <div className="flex ">
       <SidebarComponent />
