@@ -1,6 +1,6 @@
 # repliq-task
 
-Login credentials -> 
+# Login credentials  
 
-phone: 1234567890
-password: 123456
+# phone: 1234567890,
+# password: 123456
