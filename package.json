@@ -5,9 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build json-server db.json -m ./node_modules/json-server-auth",
-    "preview": "vite preview",
-    "server": "json-server db.json -m ./node_modules/json-server-auth"
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.2.1",
